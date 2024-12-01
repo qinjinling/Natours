@@ -1,4 +1,10 @@
 {
     "css.validate": false,
-    "scss.validate": false
+    "scss.validate": false,
+    "[html][scss][json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
 }
