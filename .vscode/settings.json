@@ -1,6 +1,9 @@
 {
     "css.validate": false,
     "scss.validate": false,
+    "github.copilot.enable": {
+        "*": false
+    },
     "[html][scss][json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
