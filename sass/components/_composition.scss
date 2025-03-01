@@ -1,11 +1,11 @@
-@use "../abstracts/variables";
+@use "../abstracts/variables" as *;
 
 .composition {
   position: relative;
 
   &__photo {
     width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba(variables.$color-black, 0.4);
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     // border-radius: 2px;
     position: absolute;
     z-index: 10;
@@ -26,9 +26,9 @@
     }
 
     &:hover {
-      outline: 1.5rem solid variables.$color-primary;
+      outline: 1.5rem solid $color-primary;
       transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba(variables.$color-black, 0.5);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       z-index: 20;
     }
   }
